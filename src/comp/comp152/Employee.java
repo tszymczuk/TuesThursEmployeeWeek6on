@@ -2,7 +2,7 @@ package comp.comp152;
 
 public abstract class Employee {
 
-    public void fileW2Forms(){
+    public final void fileW2Forms(){
         System.out.println("Now Generating the W-2 Form for This Employee.");
     }
 
